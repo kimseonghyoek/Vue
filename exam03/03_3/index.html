@@ -12,7 +12,11 @@
         <script>
         Vue.component('my-component', {
             template: '<div전역 컴포넌트가 등록되었습니다.!</div>'
-        });   
+        });
+
+        new Vue({
+            el: '#app'
+        });
         </script>
     </body>
 </html>
